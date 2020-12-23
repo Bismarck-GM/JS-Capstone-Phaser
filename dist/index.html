@@ -15,7 +15,7 @@
     <meta property="og:title" content="Shooter Game - Phaser 3 - JS Capstone">
     <meta property="og:description" content="Game created using Phaser 3 for Microverse Javascript Capstone.
     Futurama themed. WASD + Mouse inputs.">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image" content="./assets/ProjectGIF.gif">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -23,8 +23,9 @@
     <meta property="twitter:title" content="Shooter Game - Phaser 3 - JS Capstone">
     <meta property="twitter:description" content="Game created using Phaser 3 for Microverse Javascript Capstone.
     Futurama themed. WASD + Mouse inputs.">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:image" content="./assets/ProjectGIF.gif">
     <link rel="icon" type="image/png" href="./assets/favicon.ico"/>
+    <link rel="stylesheet" href="main.css">
     <title>Futurama Shooter</title>
   </head>
   <body>
@@ -37,80 +38,5 @@
       <h1></h1>
     </div>
   <script type="text/javascript" src="bundle.min.js"></script></body>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-      background-color: black;
-      font-family:'Courier New', Courier, monospace;
-    }
-    form {
-      font-size: 30px;
-      display: none;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      margin: 0 auto;
-      left: 50%;
-      top: 50%;
-    }
-    label {
-      color: rgb(185, 185, 185);
-      margin-bottom: 20px;
-    }
-    input {
-      font-size: 30px;
-      width: 200px;
-    }
-    p {
-      width: 500px;
-      position: absolute;
-      font-size: 18px;
-      font-weight: bold;
-      display: none;
-      color: rgb(117, 0, 0);
-      top: 100%;
-      margin: 10px;
-    }
-    #score-board {
-      display: none;
-      width: 50%;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      flex-direction: column;
-      margin-top: 15%;
-      left: 50%;
-      border-radius: 30px;
-      padding: 10px;
-      background-color: rgb(185, 185, 185);
-      justify-content: center;
-      align-items: center;
-    }
-    .loader {
-      border: 16px solid #f3f3f3; /* Light grey */
-      border-top: 16px solid #022b46; /* Blue */
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      animation: spin 2s linear infinite;
-    }
-    .leaderboard {
-      table-layout: fixed;
-      width: 100%;
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    td {
-      text-align: center; 
-      vertical-align: middle;
-    }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
 </html>
