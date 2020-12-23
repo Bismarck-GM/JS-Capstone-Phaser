@@ -19,7 +19,7 @@ Check the Game Design Document I made before starting out: [Game Design Doc](src
 
 ## Live Demo
 
-- You can click on this [link](https://bismarck-gm.github.io/JS-Capstone-Phaser/)
+- [Click on this link](https://bismarck-gm.github.io/JS-Capstone-Phaser/)
 
 ## Getting Started
 
@@ -42,6 +42,8 @@ $ git clone git@github.com:Bismarck-GM/JS-Capstone-Phaser.git
 
 - Install dependencies:
 
+After cloning move into the recently created folder (JS-Capstone-Phaser) and run
+
 ```
 $ npm install
 ```
@@ -56,13 +58,22 @@ $ npm run start
 
 Open `http://localhost:8080/` in your browser.
 
+### Test
+
+Navigate to the project root directory and run:
+
+```
+$ npm run test
+```
+
+The console will display all tests results.
 ## Author
 
 👤 **Gerónimo Morisot**
 
 - Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
 - Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
-- Linkedin: [geronimomorisot](https://linkedin.com/in/geronimomorisot)
+- LinkedIn: [Geronimo Morisot](https://linkedin.com/in/geronimomorisot)
 
 ## 🤝 Contributing
 
