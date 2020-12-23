@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
+    "test-verbose": "jest --verbose",
     "build": "webpack --config webpack/prod.js ",
     "start": "webpack-dev-server --config webpack/base.js"
   },
@@ -48,5 +49,8 @@
   "dependencies": {
     "phaser": "^3.24.1",
     "regenerator-runtime": "^0.13.7"
+  },
+  "jest": {
+    "setupFiles": ["jest-canvas-mock"]
   }
 }
