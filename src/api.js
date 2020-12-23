@@ -1,6 +1,6 @@
 import 'regenerator-runtime';
 
-const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UY5uHeKRocCxL8RC5wvX/scores/';
+const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ReoGAJ2xLVYeyzAN1ZWA/scores/';
 
 export const putScore = async (user, score) => {
   const body = JSON.stringify({ user, score });
